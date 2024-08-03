@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    /*  */
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+
+    padding: 0 90px;
+    padding-top: 120px;
+
+    gap: 100px;
+}
+
+
+#left{
+    /*  */
+    /* background-color: red; */
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* main Axis Vertical ho gayi hai*/
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+#left h1{
+    font-size: 7vw;
+    line-height: 7vw;
+    
+    font-weight: 500;
+}
+#bottom-left{
+    /*  */
+    /* background-color: yellow; */
+    height: 40%;
+    width: 100%;
+}
+#color{
+    /*  */
+    /* background-color: burlywood; */
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#color h5{
+    /* margin-right: 10px; */
+    margin-right: 0.79vw;
+    font-size: 15px;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-weight: 600;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(53, 53, 76);
+    border-radius: 50%;
+    font-weight: 600;
+}
+#bottom-left h2{
+    /* margin-top: 40px; */
+    margin-top: 3.2vw;
+    /* font-size: 20px; */
+    font-size: 1.55vw;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    margin-bottom: 0.8vw;
+}
+
+#bottom-left p{
+    width: 70%;
+    /* font-size: 16px; */
+    font-size: 1.04vw;
+    /* line-height: 25px; */
+    line-height: 1.65vw;
+    font-weight: 600;
+    color: rgb(95, 84, 84);
+}
+
+
+
+
+
+#right{
+    /*  */
+    /* background-color: blue; */
+    width: 35%;
+    height: 90%;
+    position: relative;
+}
+#right-top{
+    /*  */
+    /* background-color: darkviolet; */
+    /* height: 60px; */
+    height: 3.9vw;
+    width: 100%;
+    /* padding-right: 20px; */
+    padding-right: 1.3vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top h4{
+    /* font-size: 20px; */
+    font-size: 1.3vw;
+    font-weight: 500;
+    font-family: work sans;
+}
+#right-top h5{
+    /* font-size: 12px; */
+    font-size: 0.79vw;
+    font-weight: 600;
+    font-family: work sans;
+}
+#right-top h5 i{
+    color: goldenrod;
+}
+#right img{
+    width: 100%;
+    height: 88.4%;
+    object-fit: cover;
+    background-position: center;
+}
+#black-hole{
+    /* height: 150px; */
+    height: 9.8vw;
+    /* width: 150px; */
+    width: 9.8vw;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 30%;
+    right: -20%;
+}
+#black-hole h5{
+    /* font-size: 21px; */
+    font-size: 1.35vw;
+    font-weight: 300;
+}
+#rotated{
+    /*  */
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    left: -13%;
+    bottom: 2%;
+    transform-origin: 0 0;
+    rotate: -90deg;
+
+    /* font-size: 26px; */
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px)    
+{
+    #main{
+        /*  */
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        padding: 0 40px;
+        padding-top: 40px;
+    
+        gap: 0px;
+    }
+    
+    
+    #left{
+        /*  */
+        /* background-color: red; */
+        width: 98%;
+        height: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+        /* main Axis Vertical ho gayi hai*/
+        justify-content: space-between;
+        padding-bottom: 40px;
+        gap: 13px;
+    }
+    #left h1{
+        font-size: 18vw;
+        line-height: 18vw;
+        font-weight: 500;
+    }
+    #bottom-left{
+        /*  */
+        /* background-color: yellow; */
+        width: 100%;
+    }
+    #color{
+        /*  */
+        /* background-color: burlywood; */
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 5px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    #color h5{
+        /* margin-right: 10px; */
+        margin-right: 1.5vw;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    #color1{
+        height: 15px;
+        width: 15px;
+        background-color: grey;
+        border-radius: 50%;
+        margin: 0 5px;
+        font-weight: 600;
+    }
+    #color2{
+        height: 15px;
+        width: 15px;
+        background-color: rgb(53, 53, 76);
+        border-radius: 50%;
+        font-weight: 600;
+    }
+    #bottom-left h2{
+        margin-top: 4vw;
+        font-size: 5vw;
+        font-weight: 600;
+        margin-bottom: 1vw;
+    }
+    
+    #bottom-left p{
+        width: 100%;
+        font-size: 3vw;
+        line-height: 3.3vw;
+        font-weight: 600;
+        color: rgb(95, 84, 84);
+    }
+    
+    
+    
+    
+    
+    #right{
+        /*  */
+        /* background-color: blue; */
+        width: 96%;
+        height: 50%;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #right-top{
+        /*  */
+        /* background-color: darkviolet; */
+        height: 8vw;
+        width: 100%;
+        /* padding-right: 20px; */
+        /* padding-right: 2vw; */
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #right-top h4{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    #right-top h5{
+        font-size: 4vw;
+        font-weight: 600;
+    }
+    #right-top h5 i{
+        color: goldenrod;
+    }
+    #right img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        background-position: center;
+    }
+    #black-hole{
+        height: 21vw;
+        width: 21vw;
+        top: 0%;
+        right: -5%;
+    }
+    #black-hole h5{
+        /* font-size: 21px; */
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    #rotated{
+        /*  */
+        /* background-color: blanchedalmond; */
+        position: absolute;
+        left: -9%;
+        bottom: 2%;
+        transform-origin: 0 0;
+        rotate: -90deg;
+    
+        /* font-size: 26px; */
+        font-size: 5vw;
+        font-weight: 600;
+    }
+}
